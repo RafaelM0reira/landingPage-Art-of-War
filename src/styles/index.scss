@@ -1,0 +1,141 @@
+@import "../colors/colors.scss";
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* first screen */
+.background-first-view {
+  background-image: url("../../images/background.jpg");
+  height: 100vh;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  color: white;
+  &:hover {
+    color: $red-color;
+    transition: 0.5s;
+  }
+}
+.arrow-down {
+  width: 10rem;
+  height: 6rem;
+  margin-top: 85vh;
+}
+.first-view-container {
+  height: 100vh;
+}
+/* second screen */
+.background-second-view {
+  background-color: $black-color;
+}
+.title {
+  color: $beige-color;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.text {
+  color: $beige-color;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.book-image {
+  width: 30rem;
+}
+@media (max-width: 1200px) {
+  .book-image {
+    width: 25rem;
+  }
+  .background-first-view {
+    height: 76vh;
+  }
+  .arrow-down {
+    margin-top: 50vh;
+  }
+}
+@media (max-width: 992px) {
+  .book-image {
+    width: 20rem;
+  }
+  .text {
+    font-size: 0.9rem;
+  }
+  .title {
+    font-size: 1.7rem;
+  }
+  .arrow-down {
+    width: 8rem;
+    height: 6rem;
+    margin-top: 45vh;
+  }
+  .background-first-view {
+    height: 58vh;
+  }
+}
+@media (max-width: 332px) {
+  .book-image {
+    width: 15rem;
+  }
+  .arrow-down {
+    width: 8rem;
+    height: 6rem;
+    margin-top: 25vh;
+  }
+  .background-first-view {
+    height: 18vh;
+  }
+}
+/* third screen */
+.sun-tzu-image {
+  width: 20rem;
+}
+.text-sun-tzu {
+  text-align: center;
+  color: $beige-color;
+  font-size: 1.2rem;
+}
+.card {
+  background-color: $beige-color;
+  margin-bottom: 3rem;
+}
+.buy-button {
+  transition: 0.5s;
+}
+@media (max-width: 768px) {
+  .sun-tzu-image {
+    width: 15rem;
+    justify-self: center;
+  }
+  .text-sun-tzu {
+    text-align: center;
+    color: $beige-color;
+    font-size: 1rem;
+  }
+  .arrow-down {
+    width: 8rem;
+    height: 6rem;
+    margin-top: 35vh;
+  }
+  .background-first-view {
+    height: 48vh;
+  }
+}
+
+/* footer */
+.text-footer {
+  color: $beige-color;
+  font-size: 1.2rem;
+}
+.footer {
+  background-color: black;
+  height: 10vh;
+}
+@media (max-width: 380px) {
+  .text-footer {
+    font-size: 1rem;
+  }
+}
