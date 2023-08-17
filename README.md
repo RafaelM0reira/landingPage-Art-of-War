@@ -2,7 +2,7 @@
 <img src="./ilustration prints/2.png">
 <img src="./ilustration prints/3.png">
 
-# This is personal project is a landing page of the book Art of War
+# This personal project is a landing page of the book Art of War, this page is animated and responsive
 
 ## In this project I used
 
